@@ -27,22 +27,8 @@ class simple_watch_faceView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
-        // Get the current time and format it correctly
-        var timeFormat = "$1$:$2$";
-        var clockTime = System.getClockTime();
-        var hours = clockTime.hour;
-        if (!System.getDeviceSettings().is24Hour) {
-            if (hours > 12) {
-                hours = hours - 12;
-            }
-        } else {
-            if (getApp().getProperty("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
-            }
-        }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
+        var timeString = TimeUtil.getCurrentTime();
         // Update the view
         var view = View.findDrawableById("TimeLabel") as Text;
         view.setColor(getApp().getProperty("ForegroundColor") as Number);
@@ -54,7 +40,7 @@ class simple_watch_faceView extends WatchUi.WatchFace {
         var sunset = Weather.getSunset(wea, Time.now());
         var sunsetView = View.findDrawableById("Sunset") as Text;
         var sunsetTime = Gregorian.utcInfo(sunset, Time.FORMAT_MEDIUM);
-        var sunsetStringTime = Lang.format(timeFormat, [sunsetTime.hour , sunsetTime.min]);
+        var sunsetStringTime = SunView.getSunsetTime();
         sunsetView.setText(sunsetStringTime);
 
         var sunrise = Weather.getSunrise(wea, Time.now());
