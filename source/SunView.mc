@@ -34,7 +34,7 @@ class SunView {
 
         var result = "No data";
         var location = getWeatherLocation();
-        if(location.size > 0) {
+        if(location != null) {
             var sunsetEpoch = Weather.getSunrise(location , Time.now());
             var sunsetTime = Gregorian.utcInfo(sunsetEpoch, Time.FORMAT_MEDIUM);
             result = Lang.format(TimeUtil.getBasicTimeFormat(), [sunsetTime.hour , sunsetTime.min]);

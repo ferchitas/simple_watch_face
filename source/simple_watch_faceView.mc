@@ -34,7 +34,6 @@ class simple_watch_faceView extends WatchUi.WatchFace {
         view.setColor(getApp().getProperty("ForegroundColor") as Number);
         view.setText(timeString);
 
-        var a = Weather.getCurrentConditions();
         var wea = Weather.getCurrentConditions().observationLocationPosition;
 
         var sunset = Weather.getSunset(wea, Time.now());
@@ -44,6 +43,11 @@ class simple_watch_faceView extends WatchUi.WatchFace {
         sunsetView.setText(sunsetStringTime);
 
         var sunrise = Weather.getSunrise(wea, Time.now());
+        var sunriseView = View.findDrawableById("Sunrise") as Text;
+        var sunriseTime = Gregorian.utcInfo(sunrise, Time.FORMAT_MEDIUM);
+        var sunriseStringTime = SunView.getSunriseTime();
+        sunriseView.setText(sunriseStringTime);
+
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
