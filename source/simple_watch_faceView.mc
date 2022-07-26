@@ -10,8 +10,10 @@ import Toybox.Time.Gregorian;
 
 class simple_watch_faceView extends WatchUi.WatchFace {
 
+
     function initialize() {
         WatchFace.initialize();
+
     }
 
     // Load your resources here
@@ -48,7 +50,15 @@ class simple_watch_faceView extends WatchUi.WatchFace {
         var sunriseStringTime = SunView.getSunriseTime();
         sunriseView.setText(sunriseStringTime);
 
+        var battery = System.getSystemStats().battery.format("%02d");
+        var batteryView = View.findDrawableById("Battery") as Text;
+        batteryView.setText(battery);
+
+        dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_BLUE);
+        dc.clear();
+
         // Call the parent onUpdate function to redraw the layout
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         View.onUpdate(dc);
     }
 
