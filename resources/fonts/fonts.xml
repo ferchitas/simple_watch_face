@@ -1,0 +1,4 @@
+<fonts>
+    <font id="lemonbig" filename="lemonbig.fnt" filter="0123456789:"/>
+    <font id="lemonsmall" filename="lemonsmall.fnt"/>
+</fonts>

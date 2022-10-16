@@ -1,7 +1,23 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
     <bitmap id="Logo" filename="Logo.jpg" dithering="none" />
+    <bitmap id="batteryGreen" filename="batteryGreenIcon.svg" scaleRelativeTo="screen">
+        <palette>
+            <color>34aa00</color>
+        </palette>        
+    </bitmap>
+
+    <bitmap id="batteryOrange" filename="batteryOrangeIcon.svg" scaleRelativeTo="screen">
+        <palette>
+            <color>ff8435</color>
+        </palette>        
+    </bitmap>
+
+    <bitmap id="batteryRed" filename="batteryRedIcon.svg" scaleRelativeTo="screen">
+        <palette>
+            <color>ff2a30</color>
+        </palette>        
+    </bitmap>
     <drawable-list id="background">
-<shape type="rectangle" x="0" y="0" width="fill" height="fill" color="Gfx.COLOR_RED" />
-</drawable-list> 
+    </drawable-list> 
 </drawables>

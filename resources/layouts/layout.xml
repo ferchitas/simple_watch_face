@@ -1,9 +1,35 @@
 <layout id="WatchFace">
     <drawable class="Background" />
-    <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
-    <label id="Steps" x="center" y="top" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
-    <label id="Sunset" x="center" y="10%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_YELLOW" />
-    <label id="Sunrise" x="center" y="75%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />    
+    <!-- <drawable id="time" class="Ui.Text" >
+        <param name="locX">dc.getWidth() / 2</param>
+        <param name="locY">dc.getHeight() / 2</param>
+        <param name="color">Gfx.COLOR_WHITE</param>
+        <param name="font">Graphics.FONT_NUMBER_HOT</param>
+        <param name="justification">Gfx.TEXT_JUSTIFY_CENTER</param>
+    </drawable> -->
+    <label id="time" x="center" y="15%" justification="Graphics.TEXT_JUSTIFY_CENTER" color="FFFF00" /> <!-- amarillo -->
+    <label id="date" x="30%" y="45%" justification="Graphics.TEXT_JUSTIFY_CENTER" color="FFFF00" /> <!-- amarillo -->
+    <label id="sunrise" x="35%" y="10%" justification="Graphics.TEXT_JUSTIFY_CENTER" color="6C9DFF" /> <!-- azul -->
+    <label id="sunset" x="65%" y="10%" justification="Graphics.TEXT_JUSTIFY_CENTER" color="FFFF00" /> <!-- amarillo -->
+    <label id="battery" x="50%" y="87%" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="FFFF00" /> <!-- amarillo -->
+    <label id="stepGoal" x="50%" y="75%" justification="Graphics.TEXT_JUSTIFY_LEFT" color="FFFF00" /> <!-- amarillo -->
+    <label id="steps" x="50%" y="75%" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="6C9DFF" /> <!-- azul -->
+    <label id="heartRate" x="70%" y="45%" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="6C9DFF" /> <!-- azul -->
+
+    <!-- <drawable id="sunrise" class="Ui.Text" >
+        <param name="locX">dc.getWidth() / 2</param>
+        <param name="locY">dc.getHeight() * .12</param>
+        <param name="color">Gfx.COLOR_WHITE</param>
+        <param name="font">Gfx.FONT_SMALL</param>
+        <param name="justification">Gfx.TEXT_JUSTIFY_CENTER</param>
+        <param name="color">Gfx.COLOR_RED</param>
+    </drawable> -->
+
+    <!-- <label id="Sunrise" x="center" y="75%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />   
     <label id="Battery" x="left" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />
-    <label id="ActiveMinutesDay" x="center" y="10%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />
+    <drawable id="dateTime"> 
+        <label id="TimeLabel" x="center" y="top" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+        <label id="date" x="center" y="bottom" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_RED" />
+    </drawable>     -->
+    <!--     <label id="ActiveMinutesDay" x="center" y="10%" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_LT_GRAY" />-->
 </layout>
