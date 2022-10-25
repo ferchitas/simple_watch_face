@@ -26,8 +26,8 @@ class simple_watch_faceApp extends Application.AppBase {
         WatchUi.requestUpdate();
     }
 
-}
 
+}
 function getApp() as simple_watch_faceApp {
     return Application.getApp() as simple_watch_faceApp;
 }

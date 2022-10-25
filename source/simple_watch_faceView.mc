@@ -13,11 +13,15 @@ using Toybox.Activity as Acty;
 class simple_watch_faceView extends WatchUi.WatchFace {
 
     private var timeView as Text?;
-    var lemonBigFont = null;
-    var lemonSmallFont = null;
+    private var lemonBigFont = null;
+    private var lemonSmallFont = null;
+    private var lemonTinyFont = null;
+
     private var batteryGreenIcon as BitmapType;
     private var batteryOrangeIcon as BitmapType;
     private var batteryRedIcon as BitmapType;
+    private var heartIcon as BitmapType;
+    private var conditionTextArea as TextArea;
 
     function initialize() {
 
@@ -30,6 +34,7 @@ class simple_watch_faceView extends WatchUi.WatchFace {
         setLayout(Rez.Layouts.WatchFace(dc));
         lemonBigFont = WatchUi.loadResource(Rez.Fonts.lemonbig);
         lemonSmallFont = WatchUi.loadResource(Rez.Fonts.lemonsmall);
+        lemonTinyFont =  WatchUi.loadResource(Rez.Fonts.lemontiny);
         timeView = View.findDrawableById("time") as Text;
 
         batteryGreenIcon = new WatchUi.Bitmap({
@@ -51,6 +56,22 @@ class simple_watch_faceView extends WatchUi.WatchFace {
             :locX=>dc.getWidth() * 0.52,
             :locY=>dc.getHeight() * 0.9,
             :justification=>"Graphics.TEXT_JUSTIFY_RIGHT"
+        });
+
+        heartIcon = new WatchUi.Bitmap({
+            :rezId=>Rez.Drawables.heartIcon,
+            :locX=>dc.getWidth() * 0.72,
+            :locY=>dc.getHeight() * 0.48,
+            :justification=>"Graphics.TEXT_JUSTIFY_RIGHT"
+        });
+
+        conditionTextArea = new WatchUi.TextArea({
+            :color=>Graphics.COLOR_WHITE,
+            :font=>lemonTinyFont,
+            :locX =>dc.getWidth() * 0.24,
+            :locY=>dc.getHeight() * 0.60,
+            :width=>160,
+            :height=>80
         });
     }
 
@@ -115,6 +136,21 @@ class simple_watch_faceView extends WatchUi.WatchFace {
         sunriseView.setText(sunriseStringTime);
         sunriseView.setFont(lemonSmallFont);
 
+        if(Weather != null && Weather.getCurrentConditions() != null) {
+
+            var temperature = "--";
+            if(Weather.getCurrentConditions().temperature != null) {
+
+                temperature = Weather.getCurrentConditions().temperature;
+                var temperatureView = View.findDrawableById("temperature") as Text;
+                temperatureView.setText(temperature.toString());
+                temperatureView.setFont(lemonSmallFont);
+            }
+            var temperatureDegreeView = View.findDrawableById("temperatureDegree") as Text;
+            temperatureDegreeView.setText("C");
+            temperatureDegreeView.setFont(lemonTinyFont);
+        }
+
         var activityMonitorInfo = ActivityMonitor.getInfo();
         var stepGoal = activityMonitorInfo.stepGoal.format("%02d");
         var stepGoalView = View.findDrawableById("stepGoal") as Text;
@@ -147,8 +183,6 @@ class simple_watch_faceView extends WatchUi.WatchFace {
         var heartRateView = View.findDrawableById("heartRate") as Text;
         heartRateView.setText(heartRate);
         heartRateView.setFont(lemonSmallFont);
-        // dc.setColor(Graphics.COLOR_TRANSPARENT, Graphics.COLOR_BLUE);
-        // dc.clear();
         
         var battery = System.getSystemStats().battery;
         var batteryStr = battery.format("%02d");
@@ -157,27 +191,32 @@ class simple_watch_faceView extends WatchUi.WatchFace {
         batteryView.setFont(lemonSmallFont);
         
         
-        // Call the parent onUpdate function to redraw the layout
-        // dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         View.onUpdate(dc);
-        //dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLUE);
-        // dc.fillCircle(50, 100, 200);
-        //dc.drawBitmap(50, 50, batteryIcon);
+        heartIcon.draw(dc);
+
+        var condition = WeatherConditionUtils.getWeatherCondition(-1);
+        if(Weather != null && Weather.getCurrentConditions() != null) {
+            if(Weather.getCurrentConditions().condition != null) {
+
+                condition = WeatherConditionUtils.
+                    getWeatherCondition(Weather.getCurrentConditions().condition);
+                conditionTextArea.setText(condition);
+                conditionTextArea.draw(dc);
+            }
+        }
+
+        if(battery >= 50) {
+
+            batteryGreenIcon.draw(dc);
+
+        } else if(battery < 50 && battery >= 15) {
+
+            batteryOrangeIcon.draw(dc);
+
+        } else {
+
             batteryRedIcon.draw(dc);
-
-        // if(battery >= 50) {
-
-        //     batteryGreenIcon.draw(dc);
-
-        // } else if(battery < 50 && battery >= 15) {
-
-        //     batteryOrangeIcon.draw(dc);
-
-        // } else {
-
-        //     batteryRedIcon.draw(dc);
-
-        // }
+        }
     }
 
     // Called when this View is removed from the screen. Save the

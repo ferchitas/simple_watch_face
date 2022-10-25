@@ -18,6 +18,12 @@
             <color>ff2a30</color>
         </palette>        
     </bitmap>
+
+    <bitmap id="heartIcon" filename="heartIcon.svg" scaleRelativeTo="screen">
+        <palette>
+            <color>d40005</color>
+        </palette>        
+    </bitmap>
     <drawable-list id="background">
     </drawable-list> 
 </drawables>

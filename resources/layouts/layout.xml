@@ -7,12 +7,15 @@
         <param name="font">Graphics.FONT_NUMBER_HOT</param>
         <param name="justification">Gfx.TEXT_JUSTIFY_CENTER</param>
     </drawable> -->
-    <label id="time" x="center" y="15%" justification="Graphics.TEXT_JUSTIFY_CENTER" color="FFFF00" /> <!-- amarillo -->
+    <label id="time" x="center" y="15%" justification="Graphics.TEXT_JUSTIFY_CENTER" color="FFFFFF" /> <!-- amarillo -->
     <label id="date" x="30%" y="45%" justification="Graphics.TEXT_JUSTIFY_CENTER" color="FFFF00" /> <!-- amarillo -->
     <label id="sunrise" x="35%" y="10%" justification="Graphics.TEXT_JUSTIFY_CENTER" color="6C9DFF" /> <!-- azul -->
     <label id="sunset" x="65%" y="10%" justification="Graphics.TEXT_JUSTIFY_CENTER" color="FFFF00" /> <!-- amarillo -->
     <label id="battery" x="50%" y="87%" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="FFFF00" /> <!-- amarillo -->
     <label id="stepGoal" x="50%" y="75%" justification="Graphics.TEXT_JUSTIFY_LEFT" color="FFFF00" /> <!-- amarillo -->
+    <label id="temperature" x="18%" y="59%" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="6C9DFF" /> <!-- azul -->
+    <label id="temperatureDegree" x="22%" y="60%" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="6C9DFF" /> <!-- azul -->
+    <label id="condition" x="24%" y="65%" justification="Graphics.TEXT_JUSTIFY_LEFT" color="FFFF00" /> <!-- amarillo -->
     <label id="steps" x="50%" y="75%" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="6C9DFF" /> <!-- azul -->
     <label id="heartRate" x="70%" y="45%" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="6C9DFF" /> <!-- azul -->
 
