@@ -42,6 +42,9 @@ class WeatherConditionUtils {
             case 11:
                 result = Rez.Strings.CONDITION_SCATTERED_SHOWERS;
             break;
+            case 12:
+                result = Rez.Strings.CONDITION_SCATTERED_THUNDERSTORMS;
+            break;
             case 13:
                 result = Rez.Strings.CONDITION_UNKNOWN_PRECIPITATION;
             break;

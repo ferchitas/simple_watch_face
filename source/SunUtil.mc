@@ -5,7 +5,7 @@ import Toybox.Lang.*;
 import Toybox.Time;
 
 
-class SunView {
+class SunUtil {
 
     static function getWeatherLocation() as Array {
 

@@ -12,7 +12,6 @@ using Toybox.Activity as Acty;
 
 class simple_watch_faceView extends WatchUi.WatchFace {
 
-    private var timeView as Text?;
     private var lemonBigFont = null;
     private var lemonSmallFont = null;
     private var lemonTinyFont = null;
@@ -35,35 +34,15 @@ class simple_watch_faceView extends WatchUi.WatchFace {
         lemonBigFont = WatchUi.loadResource(Rez.Fonts.lemonbig);
         lemonSmallFont = WatchUi.loadResource(Rez.Fonts.lemonsmall);
         lemonTinyFont =  WatchUi.loadResource(Rez.Fonts.lemontiny);
-        timeView = View.findDrawableById("time") as Text;
 
-        batteryGreenIcon = new WatchUi.Bitmap({
-            :rezId=>Rez.Drawables.batteryGreen,
-            :locX=>dc.getWidth() * 0.52,
-            :locY=>dc.getHeight() * 0.9,
-            :justification=>"Graphics.TEXT_JUSTIFY_RIGHT"
-        });
+        var width as Number = dc.getWidth() * 0.52;
+        var height as Number = dc.getHeight() * 0.9;
+        var justification as String = "Graphics.TEXT_JUSTIFY_RIGHT";
 
-        batteryOrangeIcon = new WatchUi.Bitmap({
-            :rezId=>Rez.Drawables.batteryOrange,
-            :locX=>dc.getWidth() * 0.52,
-            :locY=>dc.getHeight() * 0.9,
-            :justification=>"Graphics.TEXT_JUSTIFY_RIGHT"
-        });
-
-        batteryRedIcon = new WatchUi.Bitmap({
-            :rezId=>Rez.Drawables.batteryRed,
-            :locX=>dc.getWidth() * 0.52,
-            :locY=>dc.getHeight() * 0.9,
-            :justification=>"Graphics.TEXT_JUSTIFY_RIGHT"
-        });
-
-        heartIcon = new WatchUi.Bitmap({
-            :rezId=>Rez.Drawables.heartIcon,
-            :locX=>dc.getWidth() * 0.72,
-            :locY=>dc.getHeight() * 0.48,
-            :justification=>"Graphics.TEXT_JUSTIFY_RIGHT"
-        });
+        batteryGreenIcon = createBitmap(dc, Rez.Drawables.batteryGreen, width, height, justification);
+        batteryOrangeIcon = createBitmap(dc, Rez.Drawables.batteryOrange, width, height, justification);
+        batteryRedIcon = createBitmap(dc, Rez.Drawables.batteryRed, width, height, justification);
+        heartIcon = createBitmap(dc, Rez.Drawables.heartIcon, dc.getWidth() * 0.72, dc.getHeight() * 0.48, justification);
 
         conditionTextArea = new WatchUi.TextArea({
             :color=>Graphics.COLOR_WHITE,
@@ -72,6 +51,20 @@ class simple_watch_faceView extends WatchUi.WatchFace {
             :locY=>dc.getHeight() * 0.60,
             :width=>160,
             :height=>80
+        });
+    }
+
+    private function createBitmap(dc as Dc, 
+        drawableId as Symbol, 
+        width as Number, 
+        height  as Number, 
+        justification as String) as BitmapType {
+
+        return new WatchUi.Bitmap({
+            :rezId=>drawableId,
+            :locX=>width,
+            :locY=>height,
+            :justification=>justification
         });
     }
 
@@ -84,57 +77,21 @@ class simple_watch_faceView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         
-        var today = Gregorian.info(Time.now(), Time.FORMAT_LONG);
-        var hours = today.hour.toString();
-        var mins = today.min.toString();
+        showTime();
+        showDate();
+        showSunset();
+        showSunrise();
+        showTemperature();
+        showStepGoal();
+        showSteps();
+        showHeartRate();
+        View.onUpdate(dc);
+        heartIcon.draw(dc);
+        showBattery(dc);
+        showWeatherCondition(dc);
+    }
 
-        if(today.hour < 10) {
-
-            hours = "0" + hours;
-        }
-
-        if(today.min < 10) {
-
-            mins = "0" + mins;
-        }
-        var timeString = Lang.format(
-            "$1$:$2$",
-            [
-                hours,
-                mins
-            ]
-        );
-        timeView.setText(timeString);
-        timeView.setFont(lemonBigFont);
-
-        var dateString = Lang.format(
-            "$1$, $2$ $3$",
-            [
-                today.day_of_week,
-                today.day,
-                today.month
-            ]
-        );
-
-        var dateView = View.findDrawableById("date") as Text;
-        dateView.setText(dateString);
-        dateView.setFont(lemonSmallFont);
-
-        var wea = Weather.getCurrentConditions().observationLocationPosition;
-
-        var sunset = Weather.getSunset(wea, Time.now());
-        var sunsetView = View.findDrawableById("sunset") as Text;
-        var sunsetTime = Gregorian.utcInfo(sunset, Time.FORMAT_MEDIUM);
-        var sunsetStringTime = SunView.getSunsetTime();
-        sunsetView.setText(sunsetStringTime);
-        sunsetView.setFont(lemonSmallFont);
-
-        var sunrise = Weather.getSunrise(wea, Time.now());
-        var sunriseView = View.findDrawableById("sunrise") as Text;
-        var sunriseTime = Gregorian.utcInfo(sunrise, Time.FORMAT_MEDIUM);
-        var sunriseStringTime = SunView.getSunriseTime();
-        sunriseView.setText(sunriseStringTime);
-        sunriseView.setFont(lemonSmallFont);
+    private function showTemperature() {
 
         if(Weather != null && Weather.getCurrentConditions() != null) {
 
@@ -150,60 +107,76 @@ class simple_watch_faceView extends WatchUi.WatchFace {
             temperatureDegreeView.setText("C");
             temperatureDegreeView.setFont(lemonTinyFont);
         }
+    }
+
+    private function showHeartRate() as Void {
+        
+        var heartRateView = View.findDrawableById("heartRate") as Text;
+        heartRateView.setText(HeartRateUtil.getHeartRate());
+        heartRateView.setFont(lemonSmallFont);
+    }
+
+    private function showTime() {
+
+        var time as String = TimeUtil.getTime();
+        var timeView = View.findDrawableById("time") as Text;
+        timeView.setText(time);
+        timeView.setFont(lemonBigFont);
+    }
+
+    private function showDate() {
+
+        var date as String = TimeUtil.getDate();
+        var dateView = View.findDrawableById("date") as Text;
+        dateView.setText(date);
+        dateView.setFont(lemonSmallFont);
+    }
+
+    private function showSunset() {
+
+        var sunset = Weather.getSunset(SunUtil.getWeatherLocation(), Time.now());
+        var sunsetView = View.findDrawableById("sunset") as Text;
+        var sunsetTime = Gregorian.utcInfo(sunset, Time.FORMAT_MEDIUM);
+        var sunsetStringTime = SunUtil.getSunsetTime();
+        sunsetView.setText(sunsetStringTime);
+        sunsetView.setFont(lemonSmallFont);
+    }
+
+    private function showSunrise() {
+
+        var sunrise = Weather.getSunrise(SunUtil.getWeatherLocation(), Time.now());
+        var sunriseView = View.findDrawableById("sunrise") as Text;
+        var sunriseTime = Gregorian.utcInfo(sunrise, Time.FORMAT_MEDIUM);
+        var sunriseStringTime = SunUtil.getSunriseTime();
+        sunriseView.setText(sunriseStringTime);
+        sunriseView.setFont(lemonSmallFont);
+    }
+
+    private function showStepGoal() {
 
         var activityMonitorInfo = ActivityMonitor.getInfo();
         var stepGoal = activityMonitorInfo.stepGoal.format("%02d");
         var stepGoalView = View.findDrawableById("stepGoal") as Text;
         stepGoalView.setText(stepGoal);
         stepGoalView.setFont(lemonSmallFont);
+    }
 
+    private function showSteps() {
+
+        var activityMonitorInfo = ActivityMonitor.getInfo();
         var steps = activityMonitorInfo.steps.format("%02d");
         var stepsView = View.findDrawableById("steps") as Text;
         stepsView.setText(steps);
         stepsView.setFont(lemonSmallFont);
+    }
 
-        var heartRate = "--";
-        if (Act has :getHeartRateHistory) {
+    private function showBattery(dc as Dc) {
 
-            heartRate = Activity.getActivityInfo().currentHeartRate;
-            if(heartRate == null) {
-
-                var HRH = Act.getHeartRateHistory(1, true);
-                var HRS = HRH.next();
-                if(HRS != null && HRS.heartRate != Act.INVALID_HR_SAMPLE){
-                
-                    heartRate = HRS.heartRate;
-                }
-            }  
-            if(heartRate != null) {
-
-                heartRate = heartRate.toString();
-            }
-        }
-        var heartRateView = View.findDrawableById("heartRate") as Text;
-        heartRateView.setText(heartRate);
-        heartRateView.setFont(lemonSmallFont);
-        
         var battery = System.getSystemStats().battery;
         var batteryStr = battery.format("%02d");
         var batteryView = View.findDrawableById("battery") as Text;
         batteryView.setText(batteryStr);
         batteryView.setFont(lemonSmallFont);
-        
-        
-        View.onUpdate(dc);
-        heartIcon.draw(dc);
-
-        var condition = WeatherConditionUtils.getWeatherCondition(-1);
-        if(Weather != null && Weather.getCurrentConditions() != null) {
-            if(Weather.getCurrentConditions().condition != null) {
-
-                condition = WeatherConditionUtils.
-                    getWeatherCondition(Weather.getCurrentConditions().condition);
-                conditionTextArea.setText(condition);
-                conditionTextArea.draw(dc);
-            }
-        }
 
         if(battery >= 50) {
 
@@ -216,6 +189,20 @@ class simple_watch_faceView extends WatchUi.WatchFace {
         } else {
 
             batteryRedIcon.draw(dc);
+        }
+    }
+
+    private function showWeatherCondition(dc as Dc) {
+
+        var condition = WeatherConditionUtils.getWeatherCondition(-1);
+        if(Weather != null && Weather.getCurrentConditions() != null) {
+            if(Weather.getCurrentConditions().condition != null) {
+
+                condition = WeatherConditionUtils.
+                    getWeatherCondition(Weather.getCurrentConditions().condition);
+                conditionTextArea.setText(condition);
+                conditionTextArea.draw(dc);
+            }
         }
     }
 

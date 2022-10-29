@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\ferch\Documents\GitHub\garmin\simple_watch_face\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="1" lineNum="8" parent="globals/TimeUtil" pc="268435456" symbol="getCurrentTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="1" lineNum="10" parent="globals/TimeUtil" pc="268435460" symbol="getCurrentTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="1" lineNum="11" parent="globals/TimeUtil" pc="268435477" symbol="getCurrentTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="1" lineNum="12" parent="globals/TimeUtil" pc="268435487" symbol="getCurrentTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="1" lineNum="13" parent="globals/TimeUtil" pc="268435500" symbol="getCurrentTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="1" lineNum="14" parent="globals/TimeUtil" pc="268435525" symbol="getCurrentTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="1" lineNum="15" parent="globals/TimeUtil" pc="268435536" symbol="getCurrentTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="1" lineNum="18" parent="globals/TimeUtil" pc="268435552" symbol="getCurrentTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="1" lineNum="19" parent="globals/TimeUtil" pc="268435580" symbol="getCurrentTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="1" lineNum="20" parent="globals/TimeUtil" pc="268435593" symbol="getCurrentTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="1" lineNum="23" parent="globals/TimeUtil" pc="268435614" symbol="getCurrentTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="2" lineNum="26" parent="globals/TimeUtil" pc="268435679" symbol="getBasicTimeFormat"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="2" lineNum="28" parent="globals/TimeUtil" pc="268435683" symbol="getBasicTimeFormat"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="3" lineNum="31" parent="globals/TimeUtil" pc="268435690" symbol="getBasicTimeFormatMilitary"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="3" lineNum="33" parent="globals/TimeUtil" pc="268435694" symbol="getBasicTimeFormatMilitary"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="4" lineNum="36" parent="globals/TimeUtil" pc="268435701" symbol="getDate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="4" lineNum="38" parent="globals/TimeUtil" pc="268435705" symbol="getDate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="4" lineNum="39" parent="globals/TimeUtil" pc="268435749" symbol="getDate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="5" lineNum="49" parent="globals/TimeUtil" pc="268435825" symbol="getTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="5" lineNum="51" parent="globals/TimeUtil" pc="268435829" symbol="getTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="5" lineNum="52" parent="globals/TimeUtil" pc="268435873" symbol="getTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="5" lineNum="53" parent="globals/TimeUtil" pc="268435892" symbol="getTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="5" lineNum="55" parent="globals/TimeUtil" pc="268435911" symbol="getTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="5" lineNum="57" parent="globals/TimeUtil" pc="268435928" symbol="getTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="5" lineNum="60" parent="globals/TimeUtil" pc="268435941" symbol="getTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="5" lineNum="62" parent="globals/TimeUtil" pc="268435958" symbol="getTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="5" lineNum="64" parent="globals/TimeUtil" pc="268435971" symbol="getTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="7" lineNum="6" parent="globals/TimeUtil/statics" pc="268443218" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="7" lineNum="6" parent="globals/TimeUtil" pc="268443217" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\TimeUtil.mc" id="8" lineNum="6" parent="globals/TimeUtil" pc="268436019" symbol="initialize"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="6" parent="globals/HeartRateUtil" pc="268436022" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="8" parent="globals/HeartRateUtil" pc="268436026" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="9" parent="globals/HeartRateUtil" pc="268436033" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="11" parent="globals/HeartRateUtil" pc="268436048" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="12" parent="globals/HeartRateUtil" pc="268436071" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="14" parent="globals/HeartRateUtil" pc="268436078" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="15" parent="globals/HeartRateUtil" pc="268436102" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="16" parent="globals/HeartRateUtil" pc="268436115" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="18" parent="globals/HeartRateUtil" pc="268436149" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="21" parent="globals/HeartRateUtil" pc="268436165" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="23" parent="globals/HeartRateUtil" pc="268436172" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="10" lineNum="26" parent="globals/HeartRateUtil" pc="268436191" symbol="getHeartRate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="12" lineNum="4" parent="globals/HeartRateUtil/statics" pc="268443167" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="12" lineNum="4" parent="globals/HeartRateUtil" pc="268443166" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\HeartRateUtil.mc" id="13" lineNum="4" parent="globals/HeartRateUtil" pc="268436195" symbol="initialize"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="15" lineNum="25" parent="globals/simple_watch_faceView" pc="268436198" symbol="initialize"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="15" lineNum="27" parent="globals/simple_watch_faceView" pc="268436202" symbol="initialize"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="31" parent="globals/simple_watch_faceView" pc="268436221" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="33" parent="globals/simple_watch_faceView" pc="268436225" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="34" parent="globals/simple_watch_faceView" pc="268436262" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="35" parent="globals/simple_watch_faceView" pc="268436305" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="36" parent="globals/simple_watch_faceView" pc="268436348" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="38" parent="globals/simple_watch_faceView" pc="268436391" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="39" parent="globals/simple_watch_faceView" pc="268436410" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="40" parent="globals/simple_watch_faceView" pc="268436429" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="42" parent="globals/simple_watch_faceView" pc="268436436" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="43" parent="globals/simple_watch_faceView" pc="268436483" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="44" parent="globals/simple_watch_faceView" pc="268436530" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="45" parent="globals/simple_watch_faceView" pc="268436577" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="16" lineNum="47" parent="globals/simple_watch_faceView" pc="268436654" symbol="onLayout"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="17" lineNum="57" parent="globals/simple_watch_faceView" pc="268436807" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;createBitmap&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="17" lineNum="63" parent="globals/simple_watch_faceView" pc="268436811" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;createBitmap&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="18" lineNum="74" parent="globals/simple_watch_faceView" pc="268436885" symbol="onShow"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="78" parent="globals/simple_watch_faceView" pc="268436890" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="80" parent="globals/simple_watch_faceView" pc="268436894" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="81" parent="globals/simple_watch_faceView" pc="268436906" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="82" parent="globals/simple_watch_faceView" pc="268436918" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="83" parent="globals/simple_watch_faceView" pc="268436930" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="84" parent="globals/simple_watch_faceView" pc="268436942" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="85" parent="globals/simple_watch_faceView" pc="268436954" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="86" parent="globals/simple_watch_faceView" pc="268436966" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="88" parent="globals/simple_watch_faceView" pc="268436978" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="89" parent="globals/simple_watch_faceView" pc="268436998" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="90" parent="globals/simple_watch_faceView" pc="268437018" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="19" lineNum="91" parent="globals/simple_watch_faceView" pc="268437032" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="20" lineNum="94" parent="globals/simple_watch_faceView" pc="268437047" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="20" lineNum="96" parent="globals/simple_watch_faceView" pc="268437051" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="20" lineNum="98" parent="globals/simple_watch_faceView" pc="268437085" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="20" lineNum="99" parent="globals/simple_watch_faceView" pc="268437092" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="20" lineNum="101" parent="globals/simple_watch_faceView" pc="268437118" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="20" lineNum="102" parent="globals/simple_watch_faceView" pc="268437141" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="20" lineNum="103" parent="globals/simple_watch_faceView" pc="268437165" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="20" lineNum="104" parent="globals/simple_watch_faceView" pc="268437188" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="20" lineNum="106" parent="globals/simple_watch_faceView" pc="268437211" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="20" lineNum="107" parent="globals/simple_watch_faceView" pc="268437235" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="20" lineNum="108" parent="globals/simple_watch_faceView" pc="268437252" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="21" lineNum="112" parent="globals/simple_watch_faceView" pc="268437276" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showHeartRate&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="21" lineNum="114" parent="globals/simple_watch_faceView" pc="268437280" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showHeartRate&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="21" lineNum="115" parent="globals/simple_watch_faceView" pc="268437304" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showHeartRate&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="21" lineNum="116" parent="globals/simple_watch_faceView" pc="268437333" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showHeartRate&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="22" lineNum="119" parent="globals/simple_watch_faceView" pc="268437354" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTime&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="22" lineNum="121" parent="globals/simple_watch_faceView" pc="268437358" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTime&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="22" lineNum="122" parent="globals/simple_watch_faceView" pc="268437377" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTime&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="22" lineNum="123" parent="globals/simple_watch_faceView" pc="268437401" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTime&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="22" lineNum="124" parent="globals/simple_watch_faceView" pc="268437415" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTime&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="23" lineNum="127" parent="globals/simple_watch_faceView" pc="268437436" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showDate&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="23" lineNum="129" parent="globals/simple_watch_faceView" pc="268437440" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showDate&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="23" lineNum="130" parent="globals/simple_watch_faceView" pc="268437459" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showDate&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="23" lineNum="131" parent="globals/simple_watch_faceView" pc="268437483" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showDate&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="23" lineNum="132" parent="globals/simple_watch_faceView" pc="268437497" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showDate&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="24" lineNum="135" parent="globals/simple_watch_faceView" pc="268437518" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunset&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="24" lineNum="137" parent="globals/simple_watch_faceView" pc="268437522" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunset&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="24" lineNum="138" parent="globals/simple_watch_faceView" pc="268437571" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunset&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="24" lineNum="139" parent="globals/simple_watch_faceView" pc="268437595" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunset&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="24" lineNum="140" parent="globals/simple_watch_faceView" pc="268437626" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunset&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="24" lineNum="141" parent="globals/simple_watch_faceView" pc="268437645" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunset&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="24" lineNum="142" parent="globals/simple_watch_faceView" pc="268437659" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunset&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="25" lineNum="145" parent="globals/simple_watch_faceView" pc="268437680" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunrise&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="25" lineNum="147" parent="globals/simple_watch_faceView" pc="268437684" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunrise&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="25" lineNum="148" parent="globals/simple_watch_faceView" pc="268437733" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunrise&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="25" lineNum="149" parent="globals/simple_watch_faceView" pc="268437757" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunrise&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="25" lineNum="150" parent="globals/simple_watch_faceView" pc="268437788" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunrise&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="25" lineNum="151" parent="globals/simple_watch_faceView" pc="268437807" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunrise&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="25" lineNum="152" parent="globals/simple_watch_faceView" pc="268437821" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunrise&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="26" lineNum="155" parent="globals/simple_watch_faceView" pc="268437842" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showStepGoal&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="26" lineNum="157" parent="globals/simple_watch_faceView" pc="268437846" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showStepGoal&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="26" lineNum="158" parent="globals/simple_watch_faceView" pc="268437865" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showStepGoal&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="26" lineNum="159" parent="globals/simple_watch_faceView" pc="268437889" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showStepGoal&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="26" lineNum="160" parent="globals/simple_watch_faceView" pc="268437913" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showStepGoal&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="26" lineNum="161" parent="globals/simple_watch_faceView" pc="268437927" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showStepGoal&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="27" lineNum="164" parent="globals/simple_watch_faceView" pc="268437948" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSteps&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="27" lineNum="166" parent="globals/simple_watch_faceView" pc="268437952" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSteps&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="27" lineNum="167" parent="globals/simple_watch_faceView" pc="268437971" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSteps&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="27" lineNum="168" parent="globals/simple_watch_faceView" pc="268437995" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSteps&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="27" lineNum="169" parent="globals/simple_watch_faceView" pc="268438019" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSteps&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="27" lineNum="170" parent="globals/simple_watch_faceView" pc="268438033" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSteps&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="28" lineNum="173" parent="globals/simple_watch_faceView" pc="268438054" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="28" lineNum="175" parent="globals/simple_watch_faceView" pc="268438058" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="28" lineNum="176" parent="globals/simple_watch_faceView" pc="268438081" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="28" lineNum="177" parent="globals/simple_watch_faceView" pc="268438099" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="28" lineNum="178" parent="globals/simple_watch_faceView" pc="268438123" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="28" lineNum="179" parent="globals/simple_watch_faceView" pc="268438137" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="28" lineNum="181" parent="globals/simple_watch_faceView" pc="268438157" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="28" lineNum="183" parent="globals/simple_watch_faceView" pc="268438168" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="28" lineNum="185" parent="globals/simple_watch_faceView" pc="268438191" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="28" lineNum="187" parent="globals/simple_watch_faceView" pc="268438216" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="28" lineNum="191" parent="globals/simple_watch_faceView" pc="268438239" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="29" lineNum="195" parent="globals/simple_watch_faceView" pc="268438260" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showWeatherCondition&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="29" lineNum="197" parent="globals/simple_watch_faceView" pc="268438264" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showWeatherCondition&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="29" lineNum="198" parent="globals/simple_watch_faceView" pc="268438288" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showWeatherCondition&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="29" lineNum="199" parent="globals/simple_watch_faceView" pc="268438322" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showWeatherCondition&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="29" lineNum="201" parent="globals/simple_watch_faceView" pc="268438348" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showWeatherCondition&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="29" lineNum="203" parent="globals/simple_watch_faceView" pc="268438388" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showWeatherCondition&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="29" lineNum="204" parent="globals/simple_watch_faceView" pc="268438408" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showWeatherCondition&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="30" lineNum="212" parent="globals/simple_watch_faceView" pc="268438435" symbol="onHide"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="31" lineNum="216" parent="globals/simple_watch_faceView" pc="268438440" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="32" lineNum="220" parent="globals/simple_watch_faceView" pc="268438445" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="33" lineNum="13" parent="globals/simple_watch_faceView" pc="268443223" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceView.mc" id="33" lineNum="13" parent="globals/simple_watch_faceView" pc="268443223" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="5" parent="globals/WeatherConditionUtils" pc="268438450" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="7" parent="globals/WeatherConditionUtils" pc="268438454" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="8" parent="globals/WeatherConditionUtils" pc="268438454" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="169" parent="globals/WeatherConditionUtils" pc="268439473" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="170" parent="globals/WeatherConditionUtils" pc="268439495" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="10" parent="globals/WeatherConditionUtils" pc="268439501" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="11" parent="globals/WeatherConditionUtils" pc="268439523" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="13" parent="globals/WeatherConditionUtils" pc="268439526" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="14" parent="globals/WeatherConditionUtils" pc="268439548" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="16" parent="globals/WeatherConditionUtils" pc="268439551" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="17" parent="globals/WeatherConditionUtils" pc="268439573" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="19" parent="globals/WeatherConditionUtils" pc="268439576" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="20" parent="globals/WeatherConditionUtils" pc="268439598" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="22" parent="globals/WeatherConditionUtils" pc="268439601" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="23" parent="globals/WeatherConditionUtils" pc="268439623" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="25" parent="globals/WeatherConditionUtils" pc="268439626" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="26" parent="globals/WeatherConditionUtils" pc="268439648" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="28" parent="globals/WeatherConditionUtils" pc="268439651" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="29" parent="globals/WeatherConditionUtils" pc="268439673" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="31" parent="globals/WeatherConditionUtils" pc="268439676" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="32" parent="globals/WeatherConditionUtils" pc="268439698" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="34" parent="globals/WeatherConditionUtils" pc="268439701" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="35" parent="globals/WeatherConditionUtils" pc="268439723" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="37" parent="globals/WeatherConditionUtils" pc="268439726" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="38" parent="globals/WeatherConditionUtils" pc="268439748" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="40" parent="globals/WeatherConditionUtils" pc="268439751" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="41" parent="globals/WeatherConditionUtils" pc="268439773" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="43" parent="globals/WeatherConditionUtils" pc="268439776" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="44" parent="globals/WeatherConditionUtils" pc="268439798" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="46" parent="globals/WeatherConditionUtils" pc="268439801" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="47" parent="globals/WeatherConditionUtils" pc="268439823" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="49" parent="globals/WeatherConditionUtils" pc="268439826" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="50" parent="globals/WeatherConditionUtils" pc="268439848" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="52" parent="globals/WeatherConditionUtils" pc="268439851" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="53" parent="globals/WeatherConditionUtils" pc="268439873" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="55" parent="globals/WeatherConditionUtils" pc="268439876" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="56" parent="globals/WeatherConditionUtils" pc="268439898" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="58" parent="globals/WeatherConditionUtils" pc="268439901" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="59" parent="globals/WeatherConditionUtils" pc="268439923" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="61" parent="globals/WeatherConditionUtils" pc="268439926" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="62" parent="globals/WeatherConditionUtils" pc="268439948" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="64" parent="globals/WeatherConditionUtils" pc="268439951" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="65" parent="globals/WeatherConditionUtils" pc="268439973" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="67" parent="globals/WeatherConditionUtils" pc="268439976" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="68" parent="globals/WeatherConditionUtils" pc="268439998" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="70" parent="globals/WeatherConditionUtils" pc="268440001" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="71" parent="globals/WeatherConditionUtils" pc="268440023" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="73" parent="globals/WeatherConditionUtils" pc="268440026" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="74" parent="globals/WeatherConditionUtils" pc="268440048" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="76" parent="globals/WeatherConditionUtils" pc="268440051" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="77" parent="globals/WeatherConditionUtils" pc="268440073" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="79" parent="globals/WeatherConditionUtils" pc="268440076" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="80" parent="globals/WeatherConditionUtils" pc="268440098" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="82" parent="globals/WeatherConditionUtils" pc="268440101" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="83" parent="globals/WeatherConditionUtils" pc="268440123" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="85" parent="globals/WeatherConditionUtils" pc="268440126" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="86" parent="globals/WeatherConditionUtils" pc="268440148" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="88" parent="globals/WeatherConditionUtils" pc="268440151" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="89" parent="globals/WeatherConditionUtils" pc="268440173" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="91" parent="globals/WeatherConditionUtils" pc="268440176" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="92" parent="globals/WeatherConditionUtils" pc="268440198" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="94" parent="globals/WeatherConditionUtils" pc="268440201" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="95" parent="globals/WeatherConditionUtils" pc="268440223" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="97" parent="globals/WeatherConditionUtils" pc="268440226" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="98" parent="globals/WeatherConditionUtils" pc="268440248" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="100" parent="globals/WeatherConditionUtils" pc="268440251" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="101" parent="globals/WeatherConditionUtils" pc="268440273" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="103" parent="globals/WeatherConditionUtils" pc="268440276" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="104" parent="globals/WeatherConditionUtils" pc="268440298" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="106" parent="globals/WeatherConditionUtils" pc="268440301" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="107" parent="globals/WeatherConditionUtils" pc="268440323" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="109" parent="globals/WeatherConditionUtils" pc="268440326" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="110" parent="globals/WeatherConditionUtils" pc="268440348" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="112" parent="globals/WeatherConditionUtils" pc="268440351" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="113" parent="globals/WeatherConditionUtils" pc="268440373" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="115" parent="globals/WeatherConditionUtils" pc="268440376" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="116" parent="globals/WeatherConditionUtils" pc="268440398" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="118" parent="globals/WeatherConditionUtils" pc="268440401" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="119" parent="globals/WeatherConditionUtils" pc="268440423" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="121" parent="globals/WeatherConditionUtils" pc="268440426" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="122" parent="globals/WeatherConditionUtils" pc="268440448" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="124" parent="globals/WeatherConditionUtils" pc="268440451" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="125" parent="globals/WeatherConditionUtils" pc="268440473" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="127" parent="globals/WeatherConditionUtils" pc="268440476" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="128" parent="globals/WeatherConditionUtils" pc="268440498" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="130" parent="globals/WeatherConditionUtils" pc="268440501" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="131" parent="globals/WeatherConditionUtils" pc="268440523" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="133" parent="globals/WeatherConditionUtils" pc="268440526" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="134" parent="globals/WeatherConditionUtils" pc="268440548" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="136" parent="globals/WeatherConditionUtils" pc="268440551" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="137" parent="globals/WeatherConditionUtils" pc="268440573" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="139" parent="globals/WeatherConditionUtils" pc="268440576" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="140" parent="globals/WeatherConditionUtils" pc="268440598" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="142" parent="globals/WeatherConditionUtils" pc="268440601" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="143" parent="globals/WeatherConditionUtils" pc="268440623" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="145" parent="globals/WeatherConditionUtils" pc="268440626" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="146" parent="globals/WeatherConditionUtils" pc="268440648" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="148" parent="globals/WeatherConditionUtils" pc="268440651" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="149" parent="globals/WeatherConditionUtils" pc="268440673" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="151" parent="globals/WeatherConditionUtils" pc="268440676" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="152" parent="globals/WeatherConditionUtils" pc="268440698" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="154" parent="globals/WeatherConditionUtils" pc="268440701" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="155" parent="globals/WeatherConditionUtils" pc="268440723" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="157" parent="globals/WeatherConditionUtils" pc="268440726" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="158" parent="globals/WeatherConditionUtils" pc="268440748" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="160" parent="globals/WeatherConditionUtils" pc="268440751" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="161" parent="globals/WeatherConditionUtils" pc="268440773" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="163" parent="globals/WeatherConditionUtils" pc="268440776" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="164" parent="globals/WeatherConditionUtils" pc="268440798" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="166" parent="globals/WeatherConditionUtils" pc="268440801" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="167" parent="globals/WeatherConditionUtils" pc="268440823" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="35" lineNum="172" parent="globals/WeatherConditionUtils" pc="268440829" symbol="getWeatherCondition"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="37" lineNum="3" parent="globals/WeatherConditionUtils/statics" pc="268443220" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="37" lineNum="3" parent="globals/WeatherConditionUtils" pc="268443219" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\WeatherConditionUtils.mc" id="38" lineNum="3" parent="globals/WeatherConditionUtils" pc="268440848" symbol="initialize"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceBackground.mc" id="40" lineNum="8" parent="globals/Background" pc="268440851" symbol="initialize"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceBackground.mc" id="40" lineNum="9" parent="globals/Background" pc="268440855" symbol="initialize"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceBackground.mc" id="40" lineNum="13" parent="globals/Background" pc="268440876" symbol="initialize"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceBackground.mc" id="41" lineNum="16" parent="globals/Background" pc="268440897" symbol="draw"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceBackground.mc" id="41" lineNum="18" parent="globals/Background" pc="268440901" symbol="draw"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceBackground.mc" id="41" lineNum="19" parent="globals/Background" pc="268440950" symbol="draw"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceBackground.mc" id="42" lineNum="6" parent="globals/Background" pc="268443147" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceBackground.mc" id="42" lineNum="6" parent="globals/Background" pc="268443147" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="44" lineNum="7" parent="globals/simple_watch_faceApp" pc="268440963" symbol="initialize"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="44" lineNum="8" parent="globals/simple_watch_faceApp" pc="268440967" symbol="initialize"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="45" lineNum="12" parent="globals/simple_watch_faceApp" pc="268440986" symbol="onStart"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="46" lineNum="16" parent="globals/simple_watch_faceApp" pc="268440991" symbol="onStop"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="47" lineNum="20" parent="globals/simple_watch_faceApp" pc="268440996" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="47" lineNum="21" parent="globals/simple_watch_faceApp" pc="268441000" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="48" lineNum="25" parent="globals/simple_watch_faceApp" pc="268441038" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="48" lineNum="26" parent="globals/simple_watch_faceApp" pc="268441042" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="49" lineNum="5" parent="globals/simple_watch_faceApp" pc="268443242" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="49" lineNum="5" parent="globals/simple_watch_faceApp" pc="268443242" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="50" lineNum="29" parent="globals" pc="268441059" symbol="getApp"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\simple_watch_faceApp.mc" id="50" lineNum="30" parent="globals" pc="268441071" symbol="getApp"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="52" lineNum="10" parent="globals/SunUtil" pc="268441088" symbol="getWeatherLocation"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="52" lineNum="12" parent="globals/SunUtil" pc="268441092" symbol="getWeatherLocation"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="52" lineNum="13" parent="globals/SunUtil" pc="268441100" symbol="getWeatherLocation"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="52" lineNum="16" parent="globals/SunUtil" pc="268441149" symbol="getWeatherLocation"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="52" lineNum="18" parent="globals/SunUtil" pc="268441175" symbol="getWeatherLocation"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="53" lineNum="21" parent="globals/SunUtil" pc="268441179" symbol="getSunsetTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="53" lineNum="23" parent="globals/SunUtil" pc="268441183" symbol="getSunsetTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="53" lineNum="24" parent="globals/SunUtil" pc="268441190" symbol="getSunsetTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="53" lineNum="25" parent="globals/SunUtil" pc="268441203" symbol="getSunsetTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="53" lineNum="26" parent="globals/SunUtil" pc="268441210" symbol="getSunsetTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="53" lineNum="27" parent="globals/SunUtil" pc="268441244" symbol="getSunsetTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="53" lineNum="28" parent="globals/SunUtil" pc="268441275" symbol="getSunsetTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="53" lineNum="30" parent="globals/SunUtil" pc="268441350" symbol="getSunsetTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="54" lineNum="33" parent="globals/SunUtil" pc="268441354" symbol="getSunriseTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="54" lineNum="35" parent="globals/SunUtil" pc="268441358" symbol="getSunriseTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="54" lineNum="36" parent="globals/SunUtil" pc="268441365" symbol="getSunriseTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="54" lineNum="37" parent="globals/SunUtil" pc="268441378" symbol="getSunriseTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="54" lineNum="38" parent="globals/SunUtil" pc="268441385" symbol="getSunriseTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="54" lineNum="39" parent="globals/SunUtil" pc="268441419" symbol="getSunriseTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="54" lineNum="40" parent="globals/SunUtil" pc="268441450" symbol="getSunriseTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="54" lineNum="42" parent="globals/SunUtil" pc="268441525" symbol="getSunriseTime"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="56" lineNum="8" parent="globals/SunUtil/statics" pc="268443222" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="56" lineNum="8" parent="globals/SunUtil" pc="268443221" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ferch\\Documents\\GitHub\\garmin\\simple_watch_face\\source\\SunUtil.mc" id="57" lineNum="8" parent="globals/SunUtil" pc="268441529" symbol="initialize"/>
+        <entry filename="Rez" id="59" lineNum="17" parent="globals/Rez/Drawables/background" pc="268441532" symbol="initialize"/>
+        <entry filename="Rez" id="59" lineNum="18" parent="globals/Rez/Drawables/background" pc="268441536" symbol="initialize"/>
+        <entry filename="Rez" id="60" lineNum="21" parent="globals/Rez/Drawables/background" pc="268441561" symbol="draw"/>
+        <entry filename="Rez" id="60" lineNum="22" parent="globals/Rez/Drawables/background" pc="268441565" symbol="draw"/>
+        <entry filename="Rez" id="60" lineNum="23" parent="globals/Rez/Drawables/background" pc="268441576" symbol="draw"/>
+        <entry filename="Rez" id="60" lineNum="24" parent="globals/Rez/Drawables/background" pc="268441588" symbol="draw"/>
+        <entry filename="Rez" id="61" lineNum="15" parent="globals/Rez/Drawables/background" pc="268443193" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="61" lineNum="15" parent="globals/Rez/Drawables/background" pc="268443193" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="62" lineNum="2" parent="globals/Rez/Drawables" pc="268443192" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="63" lineNum="34" parent="globals/Rez/Fonts" pc="268443213" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="64" lineNum="40" parent="globals/Rez/JsonData" pc="268443215" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="65" lineNum="49" parent="globals/Rez/Layouts" pc="268441596" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="51" parent="globals/Rez/Layouts" pc="268441608" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="52" parent="globals/Rez/Layouts" pc="268441632" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="53" parent="globals/Rez/Layouts" pc="268441758" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="54" parent="globals/Rez/Layouts" pc="268441884" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="55" parent="globals/Rez/Layouts" pc="268442010" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="56" parent="globals/Rez/Layouts" pc="268442136" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="57" parent="globals/Rez/Layouts" pc="268442262" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="58" parent="globals/Rez/Layouts" pc="268442388" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="59" parent="globals/Rez/Layouts" pc="268442514" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="60" parent="globals/Rez/Layouts" pc="268442640" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="61" parent="globals/Rez/Layouts" pc="268442766" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="62" parent="globals/Rez/Layouts" pc="268442892" symbol="WatchFace"/>
+        <entry filename="Rez" id="65" lineNum="64" parent="globals/Rez/Layouts" pc="268443018" symbol="WatchFace"/>
+        <entry filename="Rez" id="66" lineNum="42" parent="globals/Rez/Layouts" pc="268443214" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="67" lineNum="69" parent="globals/Rez/Menus" pc="268443212" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="68" lineNum="71" parent="globals/Rez/Strings" pc="268443216" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="69" lineNum="1" parent="globals/Rez" pc="268443168" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="69" lineNum="1" parent="globals/Rez" pc="268443168" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="45" method="true" symbol="getWeatherCondition"/>
+        <entry id="17" object="true" symbol="simple_watch_faceApp"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="54" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;batteryRedIcon&gt;"/>
+        <entry id="46" method="true" symbol="getWeatherLocation"/>
+        <entry id="10" module="true" symbol="globals/TimeUtil"/>
+        <entry field="true" id="8391606" symbol="CONDITION_CLEAR"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="8391659" symbol="CONDITION_UNKNOWN"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="60" method="true" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTime&gt;"/>
+        <entry field="true" id="8391613" symbol="CONDITION_WINTRY_MIX"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="8391631" symbol="CONDITION_SHOWERS"/>
+        <entry id="64" method="true" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showStepGoal&gt;"/>
+        <entry field="true" id="8391615" symbol="CONDITION_HAZY"/>
+        <entry field="true" id="8391640" symbol="CONDITION_ICE"/>
+        <entry field="true" id="8391645" symbol="CONDITION_HAZE"/>
+        <entry field="true" id="26" symbol="heartIcon"/>
+        <entry field="true" id="31" symbol="ColorRed"/>
+        <entry id="8389702" method="true" symbol="getHeartRateHistory"/>
+        <entry field="true" id="8391655" symbol="CONDITION_FREEZING_RAIN"/>
+        <entry field="true" id="8391629" symbol="CONDITION_MOSTLY_CLEAR"/>
+        <entry field="true" id="8391653" symbol="CONDITION_CLOUDY_CHANCE_OF_RAIN_SNOW"/>
+        <entry field="true" id="8391632" symbol="CONDITION_HEAVY_SHOWERS"/>
+        <entry field="true" id="8391639" symbol="CONDITION_SMOKE"/>
+        <entry id="61" method="true" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showDate&gt;"/>
+        <entry field="true" id="30" symbol="lemontiny"/>
+        <entry field="true" id="8391644" symbol="CONDITION_VOLCANIC_ASH"/>
+        <entry field="true" id="8391637" symbol="CONDITION_DRIZZLE"/>
+        <entry field="true" id="33" symbol="MilitaryFormatTitle"/>
+        <entry id="62" method="true" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunset&gt;"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8391624" symbol="CONDITION_LIGHT_RAIN_SNOW"/>
+        <entry field="true" id="8391616" symbol="CONDITION_HAIL"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="35" symbol="ColorBlue"/>
+        <entry field="true" id="8391618" symbol="CONDITION_SCATTERED_THUNDERSTORMS"/>
+        <entry field="true" id="37" symbol="AppName"/>
+        <entry id="41" method="true" symbol="getBasicTimeFormat"/>
+        <entry id="12" module="true" symbol="globals/SunUtil"/>
+        <entry id="9" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="51" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;lemonTinyFont&gt;"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="59" method="true" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showHeartRate&gt;"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="19" method="true" symbol="getHeartRate"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="8391643" symbol="CONDITION_SANDSTORM"/>
+        <entry field="true" id="8391617" symbol="CONDITION_SCATTERED_SHOWERS"/>
+        <entry id="3" module="true" symbol="globals/Rez"/>
+        <entry id="11" module="true" symbol="globals/WeatherConditionUtils"/>
+        <entry id="16" object="true" symbol="WeatherConditionUtils"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="8391626" symbol="CONDITION_CLOUDY"/>
+        <entry id="8391489" module="true" symbol="Weather"/>
+        <entry field="true" id="8391607" symbol="CONDITION_PARTLY_CLOUDY"/>
+        <entry field="true" id="49" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;lemonBigFont&gt;"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry field="true" id="8391611" symbol="CONDITION_WINDY"/>
+        <entry field="true" id="25" symbol="batteryRed"/>
+        <entry id="21" module="true" symbol="Menus"/>
+        <entry field="true" id="8391657" symbol="CONDITION_ICE_SNOW"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="8391636" symbol="CONDITION_DUST"/>
+        <entry field="true" id="39" symbol="ColorDarkGray"/>
+        <entry id="7" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8391619" symbol="CONDITION_UNKNOWN_PRECIPITATION"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="43" method="true" symbol="getDate"/>
+        <entry field="true" id="8391300" method="true" symbol="isVisible"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="42" method="true" symbol="getBasicTimeFormatMilitary"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8391648" symbol="CONDITION_TROPICAL_STORM"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="8391642" symbol="CONDITION_SQUALL"/>
+        <entry id="15" object="true" symbol="simple_watch_faceView"/>
+        <entry id="65" method="true" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSteps&gt;"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="8391620" symbol="CONDITION_LIGHT_RAIN"/>
+        <entry field="true" id="56" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;conditionTextArea&gt;"/>
+        <entry field="true" id="32" symbol="ColorWhite"/>
+        <entry id="8" module="true" symbol="globals/Rez/JsonData"/>
+        <entry field="true" id="8389892" object="true" symbol="background"/>
+        <entry id="67" method="true" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showWeatherCondition&gt;"/>
+        <entry id="66" method="true" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;"/>
+        <entry field="true" id="40" symbol="ColorBlack"/>
+        <entry field="true" id="8391614" symbol="CONDITION_FOG"/>
+        <entry field="true" id="8391638" symbol="CONDITION_TORNADO"/>
+        <entry field="true" id="22" symbol="Logo"/>
+        <entry field="true" id="8391627" symbol="CONDITION_RAIN_SNOW"/>
+        <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="8391649" symbol="CONDITION_CHANCE_OF_SNOW"/>
+        <entry field="true" id="8391622" symbol="CONDITION_LIGHT_SNOW"/>
+        <entry id="57" method="true" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;createBitmap&gt;"/>
+        <entry field="true" id="8391608" symbol="CONDITION_MOSTLY_CLOUDY"/>
+        <entry id="2" module="true" symbol="globals/HeartRateUtil"/>
+        <entry field="true" id="52" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;batteryGreenIcon&gt;"/>
+        <entry field="true" id="8391656" symbol="CONDITION_SLEET"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="44" method="true" symbol="getTime"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="55" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;heartIcon&gt;"/>
+        <entry field="true" id="8391635" symbol="CONDITION_MIST"/>
+        <entry field="true" id="8391650" symbol="CONDITION_CHANCE_OF_RAIN_SNOW"/>
+        <entry id="14" object="true" symbol="HeartRateUtil"/>
+        <entry field="true" id="50" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;lemonSmallFont&gt;"/>
+        <entry field="true" id="8391658" symbol="CONDITION_THIN_CLOUDS"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="47" method="true" symbol="getSunsetTime"/>
+        <entry field="true" id="8391630" symbol="CONDITION_LIGHT_SHOWERS"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="18" object="true" symbol="SunUtil"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="8391609" symbol="CONDITION_RAIN"/>
+        <entry field="true" id="27" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="58" method="true" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;"/>
+        <entry field="true" id="8391651" symbol="CONDITION_CLOUDY_CHANCE_OF_RAIN"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="36" symbol="BackgroundColorTitle"/>
+        <entry id="48" method="true" symbol="getSunriseTime"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="63" method="true" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;showSunrise&gt;"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="23" symbol="batteryGreen"/>
+        <entry field="true" id="8391654" symbol="CONDITION_FLURRIES"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="8391610" symbol="CONDITION_SNOW"/>
+        <entry field="true" id="8391652" symbol="CONDITION_CLOUDY_CHANCE_OF_SNOW"/>
+        <entry field="true" id="38" symbol="ColorLightGray"/>
+        <entry field="true" id="8391641" symbol="CONDITION_SAND"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="8391621" symbol="CONDITION_HEAVY_RAIN"/>
+        <entry id="8391115" method="true" symbol="getCurrentTime"/>
+        <entry field="true" id="8391647" symbol="CONDITION_HURRICANE"/>
+        <entry field="true" id="34" symbol="ForegroundColorTitle"/>
+        <entry field="true" id="53" symbol="&lt;globals/simple_watch_faceView/&lt;&gt;batteryOrangeIcon&gt;"/>
+        <entry field="true" id="28" symbol="lemonbig"/>
+        <entry field="true" id="8391628" symbol="CONDITION_PARTLY_CLEAR"/>
+        <entry field="true" id="8391625" symbol="CONDITION_HEAVY_RAIN_SNOW"/>
+        <entry field="true" id="24" symbol="batteryOrange"/>
+        <entry id="20" module="true" symbol="Layouts"/>
+        <entry field="true" id="8391646" symbol="CONDITION_FAIR"/>
+        <entry id="13" object="true" symbol="TimeUtil"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry field="true" id="8391612" symbol="CONDITION_THUNDERSTORMS"/>
+        <entry field="true" id="8391623" symbol="CONDITION_HEAVY_SNOW"/>
+        <entry id="6" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="29" symbol="lemonsmall"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="8391634" symbol="CONDITION_CHANCE_OF_THUNDERSTORMS"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8391633" symbol="CONDITION_CHANCE_OF_SHOWERS"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435677" name="hours" stackId="2" startPc="268435460"/>
+        <entry endPc="268435677" name="clockTime" stackId="1" startPc="268435460"/>
+        <entry endPc="268435677" name="timeFormat" stackId="3" startPc="268435460"/>
+        <entry endPc="268435823" name="today" stackId="1" startPc="268435705"/>
+        <entry endPc="268436017" name="hours" stackId="2" startPc="268435829"/>
+        <entry endPc="268436017" name="today" stackId="1" startPc="268435829"/>
+        <entry endPc="268436017" name="mins" stackId="3" startPc="268435829"/>
+        <entry endPc="268436161" name="HRS" stackId="3" startPc="268436078"/>
+        <entry endPc="268436161" name="HRH" stackId="2" startPc="268436078"/>
+        <entry endPc="268436193" name="heartRate" stackId="1" startPc="268436026"/>
+        <entry endPc="268436805" name="height" stackId="3" startPc="268436225"/>
+        <entry endPc="268436805" name="justification" stackId="4" startPc="268436225"/>
+        <entry endPc="268436805" name="width" stackId="2" startPc="268436225"/>
+        <entry arg="true" endPc="268436806" name="dc" stackId="1" startPc="268436221"/>
+        <entry arg="true" endPc="268436884" name="height" stackId="4" startPc="268436807"/>
+        <entry arg="true" endPc="268436884" name="dc" stackId="1" startPc="268436807"/>
+        <entry arg="true" endPc="268436884" name="justification" stackId="5" startPc="268436807"/>
+        <entry arg="true" endPc="268436884" name="drawableId" stackId="2" startPc="268436807"/>
+        <entry arg="true" endPc="268436884" name="width" stackId="3" startPc="268436807"/>
+        <entry arg="true" endPc="268437046" name="dc" stackId="1" startPc="268436890"/>
+        <entry endPc="268437207" name="temperatureView" stackId="2" startPc="268437118"/>
+        <entry endPc="268437271" name="temperature" stackId="1" startPc="268437085"/>
+        <entry endPc="268437271" name="temperatureDegreeView" stackId="3" startPc="268437085"/>
+        <entry endPc="268437352" name="heartRateView" stackId="1" startPc="268437280"/>
+        <entry endPc="268437434" name="timeView" stackId="2" startPc="268437358"/>
+        <entry endPc="268437434" name="time" stackId="1" startPc="268437358"/>
+        <entry endPc="268437516" name="dateView" stackId="2" startPc="268437440"/>
+        <entry endPc="268437516" name="date" stackId="1" startPc="268437440"/>
+        <entry endPc="268437678" name="sunsetView" stackId="2" startPc="268437522"/>
+        <entry endPc="268437678" name="sunset" stackId="1" startPc="268437522"/>
+        <entry endPc="268437678" name="sunsetStringTime" stackId="4" startPc="268437522"/>
+        <entry endPc="268437678" name="sunsetTime" stackId="3" startPc="268437522"/>
+        <entry endPc="268437840" name="sunriseStringTime" stackId="4" startPc="268437684"/>
+        <entry endPc="268437840" name="sunriseView" stackId="2" startPc="268437684"/>
+        <entry endPc="268437840" name="sunrise" stackId="1" startPc="268437684"/>
+        <entry endPc="268437840" name="sunriseTime" stackId="3" startPc="268437684"/>
+        <entry endPc="268437946" name="activityMonitorInfo" stackId="1" startPc="268437846"/>
+        <entry endPc="268437946" name="stepGoalView" stackId="3" startPc="268437846"/>
+        <entry endPc="268437946" name="stepGoal" stackId="2" startPc="268437846"/>
+        <entry endPc="268438052" name="activityMonitorInfo" stackId="1" startPc="268437952"/>
+        <entry endPc="268438052" name="steps" stackId="2" startPc="268437952"/>
+        <entry endPc="268438052" name="stepsView" stackId="3" startPc="268437952"/>
+        <entry endPc="268438258" name="battery" stackId="2" startPc="268438058"/>
+        <entry endPc="268438258" name="batteryView" stackId="4" startPc="268438058"/>
+        <entry endPc="268438258" name="batteryStr" stackId="3" startPc="268438058"/>
+        <entry arg="true" endPc="268438259" name="dc" stackId="1" startPc="268438054"/>
+        <entry endPc="268438433" name="condition" stackId="2" startPc="268438264"/>
+        <entry arg="true" endPc="268438434" name="dc" stackId="1" startPc="268438260"/>
+        <entry endPc="268440846" name="result" stackId="2" startPc="268438454"/>
+        <entry arg="true" endPc="268440847" name="number" stackId="1" startPc="268438450"/>
+        <entry endPc="268440895" name="dictionary" stackId="1" startPc="268440855"/>
+        <entry arg="true" endPc="268440962" name="dc" stackId="1" startPc="268440897"/>
+        <entry arg="true" endPc="268440990" name="state" stackId="1" startPc="268440986"/>
+        <entry arg="true" endPc="268440995" name="state" stackId="1" startPc="268440991"/>
+        <entry endPc="268441177" name="result" stackId="1" startPc="268441092"/>
+        <entry endPc="268441346" name="sunsetEpoch" stackId="3" startPc="268441210"/>
+        <entry endPc="268441346" name="sunsetTime" stackId="4" startPc="268441210"/>
+        <entry endPc="268441352" name="result" stackId="1" startPc="268441183"/>
+        <entry endPc="268441352" name="location" stackId="2" startPc="268441183"/>
+        <entry endPc="268441521" name="sunsetEpoch" stackId="3" startPc="268441385"/>
+        <entry endPc="268441521" name="sunsetTime" stackId="4" startPc="268441385"/>
+        <entry endPc="268441527" name="result" stackId="1" startPc="268441358"/>
+        <entry endPc="268441527" name="location" stackId="2" startPc="268441358"/>
+        <entry arg="true" endPc="268441595" name="dc" stackId="1" startPc="268441561"/>
+        <entry endPc="268443144" name="rez_cmp_local_text_stepGoal" stackId="8" startPc="268441608"/>
+        <entry endPc="268443144" name="rez_cmp_local_text_temperatureDegree" stackId="10" startPc="268441608"/>
+        <entry endPc="268443144" name="rez_cmp_local_text_condition" stackId="11" startPc="268441608"/>
+        <entry endPc="268443144" name="rez_cmp_local_text_sunset" stackId="6" startPc="268441608"/>
+        <entry endPc="268443144" name="rez_cmp_local_text_sunrise" stackId="5" startPc="268441608"/>
+        <entry endPc="268443144" name="rez_cmp_local_text_temperature" stackId="9" startPc="268441608"/>
+        <entry endPc="268443144" name="rez_cmp_local_text_heartRate" stackId="13" startPc="268441608"/>
+        <entry endPc="268443144" name="rez_cmp_local_text_battery" stackId="7" startPc="268441608"/>
+        <entry endPc="268443144" name="rez_cmp_local_custom_drawable_21404617346298189791" stackId="2" startPc="268441608"/>
+        <entry endPc="268443144" name="rez_cmp_local_text_steps" stackId="12" startPc="268441608"/>
+        <entry endPc="268443144" name="rez_cmp_local_text_date" stackId="4" startPc="268441608"/>
+        <entry endPc="268443144" name="rez_cmp_local_text_time" stackId="3" startPc="268441608"/>
+        <entry arg="true" endPc="268443145" name="dc" stackId="1" startPc="268441596"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Logo"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="batteryGreen"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="batteryOrange"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="batteryRed"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="heartIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="lemonbig"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="lemonsmall"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="lemontiny"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_LIGHT_RAIN"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_DUST"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_DRIZZLE"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_VOLCANIC_ASH"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_ICE"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_CLEAR"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_LIGHT_SHOWERS"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_CLOUDY"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_SCATTERED_SHOWERS"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_HEAVY_RAIN_SNOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_UNKNOWN"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_THUNDERSTORMS"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_FREEZING_RAIN"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_FAIR"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_UNKNOWN_PRECIPITATION"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_RAIN"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_CHANCE_OF_SHOWERS"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_CHANCE_OF_THUNDERSTORMS"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_LIGHT_RAIN_SNOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_ICE_SNOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_SAND"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_SLEET"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_THIN_CLOUDS"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_SNOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_MIST"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_TORNADO"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_CHANCE_OF_RAIN_SNOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_WINTRY_MIX"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_HAZY"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_RAIN_SNOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_SMOKE"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_CLOUDY_CHANCE_OF_RAIN"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_HURRICANE"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_PARTLY_CLEAR"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_HAZE"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_HEAVY_RAIN"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_SHOWERS"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_SANDSTORM"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_HAIL"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_LIGHT_SNOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_HEAVY_SHOWERS"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_WINDY"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_MOSTLY_CLEAR"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_CLOUDY_CHANCE_OF_SNOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_CHANCE_OF_SNOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_TROPICAL_STORM"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_FOG"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_CLOUDY_CHANCE_OF_RAIN_SNOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_MOSTLY_CLOUDY"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_HEAVY_SNOW"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_SCATTERED_THUNDERSTORMS"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_PARTLY_CLOUDY"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_FLURRIES"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CONDITION_SQUALL"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="119" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Background" offset="230" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/HeartRateUtil" offset="285" parentId="globals" symbolId="HeartRateUtil" type="class"/>
+        <dataEntry label="globals/HeartRateUtil/statics" offset="332" parentId="globals" symbolId="globals/HeartRateUtil" type="class"/>
+        <dataEntry label="globals/Rez" offset="371" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="450" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Drawables/background" offset="537" parentId="Drawables" symbolId="background" type="class"/>
+        <dataEntry label="globals/Rez/Menus" offset="592" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="623" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="678" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="717" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="748" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/TimeUtil" offset="1291" parentId="globals" symbolId="TimeUtil" type="class"/>
+        <dataEntry label="globals/TimeUtil/statics" offset="1338" parentId="globals" symbolId="globals/TimeUtil" type="class"/>
+        <dataEntry label="globals/WeatherConditionUtils" offset="1409" parentId="globals" symbolId="WeatherConditionUtils" type="class"/>
+        <dataEntry label="globals/WeatherConditionUtils/statics" offset="1456" parentId="globals" symbolId="globals/WeatherConditionUtils" type="class"/>
+        <dataEntry label="globals/SunUtil" offset="1495" parentId="globals" symbolId="SunUtil" type="class"/>
+        <dataEntry label="globals/SunUtil/statics" offset="1542" parentId="globals" symbolId="globals/SunUtil" type="class"/>
+        <dataEntry label="globals/simple_watch_faceView" offset="1597" parentId="globals" symbolId="simple_watch_faceView" type="class"/>
+        <dataEntry label="globals/simple_watch_faceApp" offset="1844" parentId="globals" symbolId="simple_watch_faceApp" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435678" name="getCurrentTime" parent="TimeUtil" startPc="268435456">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435689" name="getBasicTimeFormat" parent="TimeUtil" startPc="268435679">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435700" name="getBasicTimeFormatMilitary" parent="TimeUtil" startPc="268435690">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435824" name="getDate" parent="TimeUtil" startPc="268435701">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436018" name="getTime" parent="TimeUtil" startPc="268435825">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443218" name="&lt;init&gt;" parent="globals/TimeUtil" startPc="268443218">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443217" name="&lt;init&gt;" parent="TimeUtil" startPc="268443217">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436021" name="initialize" parent="TimeUtil" startPc="268436019">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436194" name="getHeartRate" parent="HeartRateUtil" startPc="268436022">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443167" name="&lt;init&gt;" parent="globals/HeartRateUtil" startPc="268443167">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443166" name="&lt;init&gt;" parent="HeartRateUtil" startPc="268443166">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436197" name="initialize" parent="HeartRateUtil" startPc="268436195">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436220" name="initialize" parent="simple_watch_faceView" startPc="268436198">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436806" name="onLayout" parent="simple_watch_faceView" startPc="268436221">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436884" name="&lt;globals/simple_watch_faceView/&lt;&gt;createBitmap&gt;" parent="simple_watch_faceView" startPc="268436807">
+            <param id="dc"/>
+            <param id="drawableId"/>
+            <param id="width"/>
+            <param id="height"/>
+            <param id="justification"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436889" name="onShow" parent="simple_watch_faceView" startPc="268436885">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437046" name="onUpdate" parent="simple_watch_faceView" startPc="268436890">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437275" name="&lt;globals/simple_watch_faceView/&lt;&gt;showTemperature&gt;" parent="simple_watch_faceView" startPc="268437047">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437353" name="&lt;globals/simple_watch_faceView/&lt;&gt;showHeartRate&gt;" parent="simple_watch_faceView" startPc="268437276">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437435" name="&lt;globals/simple_watch_faceView/&lt;&gt;showTime&gt;" parent="simple_watch_faceView" startPc="268437354">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437517" name="&lt;globals/simple_watch_faceView/&lt;&gt;showDate&gt;" parent="simple_watch_faceView" startPc="268437436">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437679" name="&lt;globals/simple_watch_faceView/&lt;&gt;showSunset&gt;" parent="simple_watch_faceView" startPc="268437518">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437841" name="&lt;globals/simple_watch_faceView/&lt;&gt;showSunrise&gt;" parent="simple_watch_faceView" startPc="268437680">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437947" name="&lt;globals/simple_watch_faceView/&lt;&gt;showStepGoal&gt;" parent="simple_watch_faceView" startPc="268437842">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438053" name="&lt;globals/simple_watch_faceView/&lt;&gt;showSteps&gt;" parent="simple_watch_faceView" startPc="268437948">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438259" name="&lt;globals/simple_watch_faceView/&lt;&gt;showBattery&gt;" parent="simple_watch_faceView" startPc="268438054">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438434" name="&lt;globals/simple_watch_faceView/&lt;&gt;showWeatherCondition&gt;" parent="simple_watch_faceView" startPc="268438260">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438439" name="onHide" parent="simple_watch_faceView" startPc="268438435">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438444" name="onExitSleep" parent="simple_watch_faceView" startPc="268438440">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438449" name="onEnterSleep" parent="simple_watch_faceView" startPc="268438445">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443241" name="&lt;init&gt;" parent="simple_watch_faceView" startPc="268443223">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440847" name="getWeatherCondition" parent="WeatherConditionUtils" startPc="268438450">
+            <param id="number"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443220" name="&lt;init&gt;" parent="globals/WeatherConditionUtils" startPc="268443220">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443219" name="&lt;init&gt;" parent="WeatherConditionUtils" startPc="268443219">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440850" name="initialize" parent="WeatherConditionUtils" startPc="268440848">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440896" name="initialize" parent="Background" startPc="268440851">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440962" name="draw" parent="Background" startPc="268440897">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443165" name="&lt;init&gt;" parent="Background" startPc="268443147">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440985" name="initialize" parent="simple_watch_faceApp" startPc="268440963">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440990" name="onStart" parent="simple_watch_faceApp" startPc="268440986">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440995" name="onStop" parent="simple_watch_faceApp" startPc="268440991">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441037" name="getInitialView" parent="simple_watch_faceApp" startPc="268440996">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441058" name="onSettingsChanged" parent="simple_watch_faceApp" startPc="268441038">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443260" name="&lt;init&gt;" parent="simple_watch_faceApp" startPc="268443242">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441087" name="getApp" startPc="268441059">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441178" name="getWeatherLocation" parent="SunUtil" startPc="268441088">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441353" name="getSunsetTime" parent="SunUtil" startPc="268441179">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441528" name="getSunriseTime" parent="SunUtil" startPc="268441354">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443222" name="&lt;init&gt;" parent="globals/SunUtil" startPc="268443222">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443221" name="&lt;init&gt;" parent="SunUtil" startPc="268443221">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441531" name="initialize" parent="SunUtil" startPc="268441529">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441560" name="initialize" parent="background" startPc="268441532">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441595" name="draw" parent="background" startPc="268441561">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443211" name="&lt;init&gt;" parent="background" startPc="268443193">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443192" name="&lt;init&gt;" parent="Drawables" startPc="268443192">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443213" name="&lt;init&gt;" parent="Fonts" startPc="268443213">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443215" name="&lt;init&gt;" parent="JsonData" startPc="268443215">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443145" name="WatchFace" parent="Layouts" startPc="268441596">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443214" name="&lt;init&gt;" parent="Layouts" startPc="268443214">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443212" name="&lt;init&gt;" parent="Menus" startPc="268443212">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443216" name="&lt;init&gt;" parent="Strings" startPc="268443216">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268443191" name="&lt;init&gt;" parent="Rez" startPc="268443168">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
