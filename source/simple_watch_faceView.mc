@@ -9,6 +9,7 @@ import Toybox.Time;
 import Toybox.Time.Gregorian;
 using Toybox.ActivityMonitor as Act;
 using Toybox.Activity as Acty;
+using Toybox.System;
 
 class simple_watch_faceView extends WatchUi.WatchFace {
 
@@ -93,20 +94,19 @@ class simple_watch_faceView extends WatchUi.WatchFace {
 
     private function showTemperature() {
 
+        var temperature = "--";
         if(Weather != null && Weather.getCurrentConditions() != null) {
-
-            var temperature = "--";
             if(Weather.getCurrentConditions().temperature != null) {
 
                 temperature = Weather.getCurrentConditions().temperature;
-                var temperatureView = View.findDrawableById("temperature") as Text;
-                temperatureView.setText(temperature.toString());
-                temperatureView.setFont(lemonSmallFont);
             }
-            var temperatureDegreeView = View.findDrawableById("temperatureDegree") as Text;
-            temperatureDegreeView.setText("C");
-            temperatureDegreeView.setFont(lemonTinyFont);
         }
+        var temperatureView = View.findDrawableById("temperature") as Text;
+        temperatureView.setText(temperature.toString());
+        temperatureView.setFont(lemonSmallFont);
+        var temperatureDegreeView = View.findDrawableById("temperatureDegree") as Text;
+        temperatureDegreeView.setText("C");
+        temperatureDegreeView.setFont(lemonTinyFont);
     }
 
     private function showHeartRate() as Void {
@@ -134,21 +134,16 @@ class simple_watch_faceView extends WatchUi.WatchFace {
 
     private function showSunset() {
 
-        var sunset = Weather.getSunset(SunUtil.getWeatherLocation(), Time.now());
+        System.println("Entrando en showSunset.");
         var sunsetView = View.findDrawableById("sunset") as Text;
-        var sunsetTime = Gregorian.utcInfo(sunset, Time.FORMAT_MEDIUM);
-        var sunsetStringTime = SunUtil.getSunsetTime();
-        sunsetView.setText(sunsetStringTime);
+        sunsetView.setText(SunUtil.getSunsetTime());
         sunsetView.setFont(lemonSmallFont);
     }
 
     private function showSunrise() {
 
-        var sunrise = Weather.getSunrise(SunUtil.getWeatherLocation(), Time.now());
         var sunriseView = View.findDrawableById("sunrise") as Text;
-        var sunriseTime = Gregorian.utcInfo(sunrise, Time.FORMAT_MEDIUM);
-        var sunriseStringTime = SunUtil.getSunriseTime();
-        sunriseView.setText(sunriseStringTime);
+        sunriseView.setText(SunUtil.getSunriseTime());
         sunriseView.setFont(lemonSmallFont);
     }
 
