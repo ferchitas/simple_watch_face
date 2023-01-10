@@ -8,7 +8,6 @@ import Toybox.Weather;
 import Toybox.Time;
 import Toybox.Time.Gregorian;
 using Toybox.ActivityMonitor as Act;
-using Toybox.Activity as Acty;
 using Toybox.System;
 
 class simple_watch_faceView extends WatchUi.WatchFace {
@@ -87,7 +86,7 @@ class simple_watch_faceView extends WatchUi.WatchFace {
         showSteps();
         showHeartRate();
         View.onUpdate(dc);
-        heartIcon.draw(dc);
+        heartIcon.draw(dc); 
         showBattery(dc);
         showWeatherCondition(dc);
     }
