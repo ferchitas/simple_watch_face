@@ -1,5 +1,6 @@
 using Toybox.ActivityMonitor as Act;
 using Toybox.Activity as Acty;
+import Toybox.Lang;
 
 class HeartRateUtil {
 

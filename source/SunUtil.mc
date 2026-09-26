@@ -1,85 +1,65 @@
 import Toybox.Weather;
 import Toybox.Time.Gregorian;
 import Toybox.Lang;
-import Toybox.Lang.*;
 import Toybox.Position;
 import Toybox.Time;
-using Toybox.System;
 import Toybox.Activity;
+using Toybox.System;
 
 class SunUtil {
 
-    static function getWeatherLocation() as Position.Location {
-
-        System.println("Entrando en getWeatherLocation.");
-        var result as Array = null;
-        if(Weather.getCurrentConditions() != null &&
-            Weather.getCurrentConditions().observationLocationPosition != null) {
-            System.println("Weather.getCurrentConditions().observationLocationPosition no es nulo.");
-            var observationLocationPosition = Weather.getCurrentConditions().observationLocationPosition;
-            System.println("Calculando nueva localizacion.");
-            result = new Position.Location({
-                :latitude => observationLocationPosition.toDegrees()[0],
-                :longitude => observationLocationPosition.toDegrees()[1],
-                :format => :degrees
-            });
-            System.println("Nueva localizacion calculada");
+    static function getLocation() as Position.Location or Null {
+        if (Weather has :getCurrentConditions && Weather.getCurrentConditions() != null) {
+            var cond = Weather.getCurrentConditions();
+            if (cond.observationLocationPosition != null) {
+                return cond.observationLocationPosition;
+            }
         }
-        return result;
+
+        var actInfo = Activity.getActivityInfo();
+        if (actInfo != null && actInfo.currentLocation != null) {
+            return actInfo.currentLocation;
+        }
+
+        return null;
     }
 
-    static function getLastLocation() as Position.Location {
-
-        var curLoc = Activity.getActivityInfo().currentLocation;
-        var result = null;
-        if (curLoc != null) {
-            result = new Position.Location({
-                :latitude => curLoc.toDegrees()[0].toFloat(),
-                :longitude => curLoc.toDegrees()[1].toFloat(),
-                :format => :degrees
-            });
-        }
-        return result;
-    }
-    
     static function getSunsetTime() as String {
-
-        System.println("Entrando en getSunsetTime.");
-        var result = "--:--";
-        var lastLocation as Position.Location = getLastLocation();
-        
-        if(lastLocation != null) {
-            System.println("Weather condition no es nulo.");
-            var sunset = Weather.getSunset(lastLocation, Time.now());
-            System.println("Fecha y hora obtenida.");
-            var sunsetGregorianTime = Gregorian.info(sunset, Time.FORMAT_MEDIUM);
-            System.println("Fecha y hora pasada a calendario gregoriano.");
-            var hours = sunsetGregorianTime.hour;
-            var mins = sunsetGregorianTime.min;
-            var format = TimeUtil.getBasicTimeFormat();
-            result = Lang.format(format, [hours, mins]);
-            System.println("Hora pasada a string.");
+        var loc = getLocation();
+        if (loc == null) {
+            return "--:--";
         }
-        return result;
+
+        var sunsetMoment = Weather.getSunset(loc, Time.now());
+        if (sunsetMoment == null) {
+            return "--:--";
+        }
+
+        // Gregorian.info convierte automáticamente a hora local usando FORMAT_SHORT
+        var sunsetGregorianTime = Gregorian.info(sunsetMoment, Time.FORMAT_SHORT);
+        
+        var hours = sunsetGregorianTime.hour;
+        var mins = sunsetGregorianTime.min;
+
+        return Lang.format("$1$:$2$", [hours.format("%02d"), mins.format("%02d")]);
     }
 
     static function getSunriseTime() as String {
-
-        var result = "--:--";
-        var lastLocation as Position.Location = getLastLocation();
-        
-        if(lastLocation != null) {
-            System.println("Weather condition no es nulo.");
-            var sunset = Weather.getSunrise(lastLocation, Time.now());
-            System.println("Fecha y hora obtenida.");
-            var sunsetGregorianTime = Gregorian.info(sunset, Time.FORMAT_MEDIUM);
-            System.println("Fecha y hora pasada a calendario gregoriano.");
-            var hours = sunsetGregorianTime.hour;
-            var mins = sunsetGregorianTime.min;
-            var format = TimeUtil.getBasicTimeFormat();
-            result = Lang.format(format, [hours, mins]);
-            System.println("Hora pasada a string.");
+        var loc = getLocation();
+        if (loc == null) {
+            return "--:--";
         }
-        return result;
+
+        var sunriseMoment = Weather.getSunrise(loc, Time.now());
+        if (sunriseMoment == null) {
+            return "--:--";
+        }
+
+        var sunriseGregorianTime = Gregorian.info(sunriseMoment, Time.FORMAT_SHORT);
+        
+        var hours = sunriseGregorianTime.hour;
+        var mins = sunriseGregorianTime.min;
+
+        return Lang.format("$1$:$2$", [hours.format("%02d"), mins.format("%02d")]);
     }
 }

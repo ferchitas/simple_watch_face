@@ -7,6 +7,7 @@ import Toybox.Position;
 import Toybox.Weather;
 import Toybox.Time;
 import Toybox.Time.Gregorian;
+import Toybox.Lang;
 using Toybox.ActivityMonitor as Act;
 using Toybox.System;
 
@@ -16,11 +17,11 @@ class simple_watch_faceView extends WatchUi.WatchFace {
     private var lemonSmallFont = null;
     private var lemonTinyFont = null;
 
-    private var batteryGreenIcon as BitmapType;
-    private var batteryOrangeIcon as BitmapType;
-    private var batteryRedIcon as BitmapType;
-    private var heartIcon as BitmapType;
-    private var conditionTextArea as TextArea;
+    private var batteryGreenIcon as WatchUi.Bitmap or Null;
+    private var batteryOrangeIcon as WatchUi.Bitmap or Null;
+    private var batteryRedIcon as WatchUi.Bitmap or Null;
+    private var heartIcon as WatchUi.Bitmap or Null;
+    private var conditionTextArea as TextArea or Null;
 
     function initialize() {
 
@@ -29,42 +30,53 @@ class simple_watch_faceView extends WatchUi.WatchFace {
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-        
         setLayout(Rez.Layouts.WatchFace(dc));
         lemonBigFont = WatchUi.loadResource(Rez.Fonts.lemonbig);
         lemonSmallFont = WatchUi.loadResource(Rez.Fonts.lemonsmall);
-        lemonTinyFont =  WatchUi.loadResource(Rez.Fonts.lemontiny);
+        lemonTinyFont = WatchUi.loadResource(Rez.Fonts.lemontiny);
 
-        var width as Number = dc.getWidth() * 0.52;
-        var height as Number = dc.getHeight() * 0.9;
-        var justification as String = "Graphics.TEXT_JUSTIFY_RIGHT";
+        // Forzamos conversión a entero con .toNumber()
+        var width = (dc.getWidth() * 0.52).toNumber();
+        var height = (dc.getHeight() * 0.90).toNumber();
+        
+        // Asignamos la constante oficial de alineación
+        var justification = Graphics.TEXT_JUSTIFY_RIGHT;
 
         batteryGreenIcon = createBitmap(dc, Rez.Drawables.batteryGreen, width, height, justification);
         batteryOrangeIcon = createBitmap(dc, Rez.Drawables.batteryOrange, width, height, justification);
         batteryRedIcon = createBitmap(dc, Rez.Drawables.batteryRed, width, height, justification);
-        heartIcon = createBitmap(dc, Rez.Drawables.heartIcon, dc.getWidth() * 0.72, dc.getHeight() * 0.48, justification);
+        
+        heartIcon = createBitmap(
+            dc, 
+            Rez.Drawables.heartIcon, 
+            (dc.getWidth() * 0.72).toNumber(), 
+            (dc.getHeight() * 0.48).toNumber(), 
+            justification
+        );
 
         conditionTextArea = new WatchUi.TextArea({
-            :color=>Graphics.COLOR_WHITE,
-            :font=>lemonTinyFont,
-            :locX =>dc.getWidth() * 0.24,
-            :locY=>dc.getHeight() * 0.60,
-            :width=>160,
-            :height=>80
+            :color => Graphics.COLOR_WHITE,
+            :font => lemonTinyFont,
+            :locX => (dc.getWidth() * 0.24).toNumber(),
+            :locY => (dc.getHeight() * 0.60).toNumber(),
+            :width => 160,
+            :height => 80
         });
     }
-
-    private function createBitmap(dc as Dc, 
-        drawableId as Symbol, 
+    
+    private function createBitmap(
+        dc as Dc, 
+        drawableId as ResourceId, 
         width as Number, 
-        height  as Number, 
-        justification as String) as BitmapType {
+        height as Number, 
+        justification as Graphics.TextJustification
+    ) as WatchUi.Bitmap {
 
+        // Se elimina :justification del diccionario
         return new WatchUi.Bitmap({
-            :rezId=>drawableId,
-            :locX=>width,
-            :locY=>height,
-            :justification=>justification
+            :rezId => drawableId,
+            :locX  => width,
+            :locY  => height
         });
     }
 
@@ -117,7 +129,7 @@ class simple_watch_faceView extends WatchUi.WatchFace {
 
     private function showTime() {
 
-        var time as String = TimeUtil.getTime();
+        var time = TimeUtil.getTime();
         var timeView = View.findDrawableById("time") as Text;
         timeView.setText(time);
         timeView.setFont(lemonBigFont);
@@ -125,7 +137,7 @@ class simple_watch_faceView extends WatchUi.WatchFace {
 
     private function showDate() {
 
-        var date as String = TimeUtil.getDate();
+        var date = TimeUtil.getDate();
         var dateView = View.findDrawableById("date") as Text;
         dateView.setText(date);
         dateView.setFont(lemonSmallFont);

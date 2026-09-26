@@ -17,8 +17,8 @@ class simple_watch_faceApp extends Application.AppBase {
     }
 
     // Return the initial view of your application here
-    function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new simple_watch_faceView() ] as Array<Views or InputDelegates>;
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+        return [ new simple_watch_faceView() ];
     }
 
     // New app settings have been received so trigger a UI update
